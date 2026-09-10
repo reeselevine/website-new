@@ -6,6 +6,21 @@ export type RawNewsItem = {
 
 export const rawNewsItems: RawNewsItem[] = [
   {
+    slug: 'apple-start',
+    date: '2026-8-24',
+    body: "I started work at Apple on their GPU Platform Architecture team. Looking forward to helping build the future of Apple silicon!"
+  },
+  {
+    slug: 'microsoft-talk',
+    date: '2026-7-28',
+    body: "I gave a talk at Microsoft Research in Redmond, presenting my thesis work on memory consistency and safety."
+  },
+  {
+    slug: 'thesis-defense',
+    date: '2026-7-10',
+    body: "I successfully defended my thesis, [Validating GPU Memory Consistency and Safety at Scale](https://escholarship.org/uc/item/6m27w0pd)."
+  },
+  {
     slug: 'llamas-on-the-web',
     date: '2026-5-20',
     body: "We're introducing Llamas on the Web, a WebGPU backend for llama.cpp that enables running LLMs in the browser with GPU acceleration. Check out our [blog post](https://reeselevine.github.io/llamas-on-the-web/) and [paper](https://arxiv.org/abs/2605.20706)!",
